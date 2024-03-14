@@ -1,24 +1,25 @@
 .header {
     background-color: rgb(0, 0, 0);
-    padding: 1rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: calc(3vw + 1rem); /* Adjust the values as needed */
+    text-size-adjust: 10%;
     font-weight: bold;
     color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    padding: 2rem  ;
+    
 }
 
-.title {
-    margin-top: 2rem;
-   
-}
 
 .img{
-    margin-right: 1rem;
+    max-width: 40rem;
 }
+
+
 
 
 

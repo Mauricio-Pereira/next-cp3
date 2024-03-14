@@ -18,13 +18,13 @@
 
 body {
     background-color: white;
-    margin-top: 2rem;
-    margin-top: 2rem;
  
 }
 
 .flex-auto{
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 @layer utilities {

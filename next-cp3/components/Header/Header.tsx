@@ -8,9 +8,8 @@ const Header = () => {
         width={200}
         height={200}
         alt="Cinema logo"
-        
         />
-      <h1 className="title">Os melhores filmes estão aqui!</h1>
+      <h1>Os melhores filmes estão aqui!</h1>
     </header>
   );
 }
